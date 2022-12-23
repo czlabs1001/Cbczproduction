@@ -1,0 +1,27 @@
+{
+    "name": "beycan/solana-web3",
+    "version": "1.1.1",
+    "description": "Allows you to easily make requests to the Solana RPC API.",
+    "type": "library",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "Halil Beycan",
+            "email": "halilbeycan0@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/BeycanDeveloper/solana-web3/issues"
+    },
+    "homepage": "https://github.com/BeycanDeveloper/solana-web3",
+    "require": {
+        "php": ">=7.3",
+        "phpseclib/phpseclib": "~2.0.11",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Beycan\\SolanaWeb3\\" : "src"
+        }
+    }
+}

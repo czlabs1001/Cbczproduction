@@ -1,0 +1,50 @@
+<?php $widget_id = isset( $widget_id ) ? $widget_id : $this->generateID(); ?>
+<div id="<?php echo esc_attr( $widget_id ) ?>" class="sw-instagram-listing">
+	<?php if( $title != '' || $description != '' ) : ?>
+		<h3><span><?php echo $title; ?></span></h3>
+		<?php echo ( $description != '' ) ? '<div class="box-description">' . $description . '</div>' : ''; ?>
+	<?php endif; ?>
+	<?php
+	$instagram = get_transient ( 'instagram_gallery' );
+	if( empty( $instagram ) ){
+		$instagrams = $this->Get_Instagram_Gallery( $userid, $access_token, $numberposts );
+		set_transient( 'instagram_gallery', $instagrams, 60*60*12 );
+	}else{
+		$instagram = $this->Get_Instagram_Gallery( $userid, $access_token, $numberposts );
+	}
+	$url = array();
+	$images = array();
+	if( !isset( $instagram->meta->error_message ) ) {
+		$widget_id = isset( $widget_id ) ? $widget_id : 'sw_instagram_gallery_'. rand().time();
+		if( isset( $instagram->data ) && is_array( $instagram->data ) && count( $instagram->data ) > 0 ){
+			foreach( $instagram->data as $key => $img ){
+				$url[$key] = $img->link;
+				$images[$key] = $img->images;
+			}
+			if( count( $images ) > 0 ) :
+		?>
+			<!-- Gallery Content -->
+				<div class="resp-instagram-wrapper">
+					<?php foreach( $images as $i => $image ) : ?>
+						<?php $resolution = ( $i % 7 == 0 ) ? 'standard_resolution' : 'low_resolution'; ?>
+						<?php echo ( $i % 7 == 1 ) ? '<div class="item-small-wrapper">' : ''; ?>
+						<div class="item <?php echo esc_attr( ( $i % 7 == 0 ) ? 'item-large' : 'item-small' ); ?>">
+							<a target="_blank" href="<?php echo esc_url( $url[$i] ); ?>">
+								<img src="<?php echo esc_url( $image->$resolution->url );?>" alt=""/>
+								<span class="fa fa-instagram"></span>
+							</a>
+						</div>
+						<?php echo ( $i % 7 == 6 ) ? '</div>' : ''; ?>
+					<?php endforeach; ?>
+				</div>
+			<?php 
+			endif;
+		} 
+	}else{
+		echo '<div class="alert alert-warning alert-dismissible" role="alert">
+		<a class="close" data-dismiss="alert">&times;</a>
+		<p>' . $instagram->meta->error_message . '</p>
+	</div>'; 
+}
+?>
+</div>

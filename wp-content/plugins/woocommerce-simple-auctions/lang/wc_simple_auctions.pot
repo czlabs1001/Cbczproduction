@@ -1,0 +1,1661 @@
+# Copyright (C) 2022 wpgenie
+# This file is distributed under the same license as the WooCommerce Simple Auction plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Simple Auction 2.0.15\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-simple-auctions\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-05-24T09:27:42+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: wc_simple_auctions\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Simple Auction"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://www.wpgenie.org/woocommerce-simple-auctions/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Easily extend WooCommerce with auction features and functionalities."
+msgstr ""
+
+#. Author of the plugin
+msgid "wpgenie"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.wpgenie.org/"
+msgstr ""
+
+#: classes/class-wc-bid.php:73
+msgid "Sorry, you must be logged in to place a bid. <a href=\"%s\" class=\"button\">Login &rarr;</a>"
+msgstr ""
+
+#: classes/class-wc-bid.php:78
+msgid "Bid must be greater than 0!"
+msgstr ""
+
+#: classes/class-wc-bid.php:83
+msgid "Bid must be lower than %s !"
+msgstr ""
+
+#: classes/class-wc-bid.php:89
+msgid "Sorry, auction for &quot;%s&quot; is finished"
+msgstr ""
+
+#: classes/class-wc-bid.php:95
+msgid "Sorry, the auction for &quot;%s&quot; has not started yet"
+msgstr ""
+
+#: classes/class-wc-bid.php:101
+msgid "You cannot place a bid for &quot;%s&quot; because the product is out of stock."
+msgstr ""
+
+#: classes/class-wc-bid.php:115
+#: woocommerce-simple-auctions-functions.php:81
+#: woocommerce-simple-auctions.php:901
+msgid "No need to bid. Your bid is winning! "
+msgstr ""
+
+#: classes/class-wc-bid.php:127
+msgid "New max bid cannot be smaller than old max bid!"
+msgstr ""
+
+#: classes/class-wc-bid.php:132
+msgid "New max bid cannot be smaller than current bid!"
+msgstr ""
+
+#: classes/class-wc-bid.php:139
+msgid "You have changed your maximum bid successfully"
+msgstr ""
+
+#: classes/class-wc-bid.php:145
+msgid "New min bid cannot be bigger than old min bid!"
+msgstr ""
+
+#: classes/class-wc-bid.php:150
+msgid "You have changed your minimum bid successfully"
+msgstr ""
+
+#: classes/class-wc-bid.php:221
+#: classes/class-wc-bid.php:306
+msgid "You were outbid. Try again!"
+msgstr ""
+
+#: classes/class-wc-bid.php:239
+msgid "Your bid for &quot;%s&quot; is smaller than the current bid. Your bid must be at least %s "
+msgstr ""
+
+#: classes/class-wc-bid.php:323
+msgid "Your bid for &quot;%s&quot; is larger than the current bid"
+msgstr ""
+
+#: classes/class-wc-bid.php:330
+#: classes/class-wc-bid.php:434
+#: classes/class-wc-product-auction.php:346
+msgid "There was no bid"
+msgstr ""
+
+#: classes/class-wc-bid.php:378
+msgid "You already placed bid for this auction! "
+msgstr ""
+
+#: classes/class-wc-bid.php:389
+msgid "Your bid for &quot;%s&quot; is smaller than the minimum bid. Your bid must be at least %s "
+msgstr ""
+
+#: classes/class-wc-bid.php:414
+msgid "Your bid for &quot;%s&quot; is bigger than the maximum bid. Your bid must be at least %s "
+msgstr ""
+
+#: classes/class-wc-product-auction.php:39
+#: woocommerce-simple-auctions.php:104
+msgid "New"
+msgstr ""
+
+#: classes/class-wc-product-auction.php:39
+#: woocommerce-simple-auctions.php:105
+msgid "Used"
+msgstr ""
+
+#: classes/class-wc-product-auction.php:357
+msgid "The item didn't make it to reserve price"
+msgstr ""
+
+#: classes/class-wc-product-auction.php:442
+#: templates/single-product/tabs/auction-history.php:55
+#: templates/single-product/tabs/auction-history.php:73
+#: woocommerce-simple-auctions.php:2057
+#: woocommerce-simple-auctions.php:2090
+#: woocommerce-simple-auctions.php:2109
+msgid "Auto"
+msgstr ""
+
+#: classes/class-wc-product-auction.php:466
+msgid "<span class=\"sold-for auction\">Sold for</span>: "
+msgstr ""
+
+#: classes/class-wc-product-auction.php:473
+msgid "<span class=\"winned-for auction\">Auction item did not make it to reserve price</span> "
+msgstr ""
+
+#: classes/class-wc-product-auction.php:475
+msgid "<span class=\"winned-for auction\">Winning Bid:</span> "
+msgstr ""
+
+#: classes/class-wc-product-auction.php:479
+msgid "<span class=\"winned-for auction\">Auction Ended</span> "
+msgstr ""
+
+#: classes/class-wc-product-auction.php:486
+msgid "<span class=\"starting auction\">Starting bid:</span> "
+msgstr ""
+
+#: classes/class-wc-product-auction.php:491
+msgid "<span class=\"current auction\">This is sealed bid auction.</span> "
+msgstr ""
+
+#: classes/class-wc-product-auction.php:495
+msgid "<span class=\"current auction\">Starting bid:</span> "
+msgstr ""
+
+#: classes/class-wc-product-auction.php:497
+msgid "<span class=\"current auction\">Current bid:</span> "
+msgstr ""
+
+#: classes/class-wc-product-auction.php:569
+msgid "Bid now"
+msgstr ""
+
+#: classes/class-wc-product-auction.php:571
+#: classes/widgets/class-woocommerce-simple-auctions-widget-ending-soon-auction.php:120
+#: classes/widgets/class-woocommerce-simple-auctions-widget-featured-auctions.php:120
+#: classes/widgets/class-woocommerce-simple-auctions-widget-future-auctions.php:130
+#: classes/widgets/class-woocommerce-simple-auctions-widget-my-auctions.php:125
+#: classes/widgets/class-woocommerce-simple-auctions-widget-random-auctions.php:89
+#: classes/widgets/class-woocommerce-simple-auctions-widget-recent-auction.php:113
+#: classes/widgets/class-woocommerce-simple-auctions-widget-recently-auctions.php:120
+#: classes/widgets/class-woocommerce-simple-auctions-widget-watchlist.php:120
+msgid "Auction finished"
+msgstr ""
+
+#: classes/class-wc-product-auction.php:573
+msgid "Auction not started"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:25
+#: woocommerce-simple-auctions.php:1756
+msgid "Auctions"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:41
+#: woocommerce-simple-auctions.php:1795
+msgid "Simple auction options"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:43
+msgid "Default Auction Sorting"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:44
+msgid "This controls the default sort order of the auctions."
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:53
+#: woocommerce-simple-auctions-functions.php:142
+#: woocommerce-simple-auctions.php:4225
+msgid "Sort by current bid: Low to high"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:54
+#: woocommerce-simple-auctions-functions.php:143
+#: woocommerce-simple-auctions.php:4226
+msgid "Sort by current bid: High to low"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:55
+#: woocommerce-simple-auctions-functions.php:144
+#: woocommerce-simple-auctions.php:4227
+msgid "Sort auction by ending soonest"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:56
+#: woocommerce-simple-auctions-functions.php:145
+#: woocommerce-simple-auctions.php:4228
+msgid "Sort auction by recently started"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:57
+#: woocommerce-simple-auctions-functions.php:146
+#: woocommerce-simple-auctions.php:4229
+msgid "Sort auction by most active"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:58
+#: woocommerce-simple-auctions-functions.php:147
+msgid "Random sort auctions"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:64
+#: woocommerce-simple-auctions.php:1801
+msgid "Past auctions"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:65
+#: woocommerce-simple-auctions.php:1802
+msgid "Show finished auctions."
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:71
+#: woocommerce-simple-auctions.php:1808
+msgid "Future auctions"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:72
+#: woocommerce-simple-auctions.php:1809
+msgid "Show auctions that did not start yet."
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:78
+#: woocommerce-simple-auctions.php:1815
+msgid "Do not show auctions on shop page"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:79
+#: woocommerce-simple-auctions.php:1816
+msgid "Do not mix auctions and regular products on shop page. Just show auctions on the auction page (auctions base page)"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:85
+#: woocommerce-simple-auctions.php:1822
+msgid "Do not show auctions on product search page"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:86
+#: woocommerce-simple-auctions.php:1823
+msgid "Do not mix auctions and regular products on product search page."
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:92
+#: woocommerce-simple-auctions.php:1829
+msgid "Do not show auctions on product category page"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:93
+#: woocommerce-simple-auctions.php:1830
+msgid "Do not mix auctions and regular products on product category page. Just show auctions on the auction page (auctions base page)"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:99
+msgid "Do not show auctions on product tag page"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:100
+msgid "Do not mix auctions and regular products on product tag page. Just show auctions on the auction page (auctions base page)"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:106
+msgid "Do not show auctions in products shortcodes"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:107
+msgid "Do not mix auctions and regular products in product shortcodes"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:113
+msgid "Countdown format"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:114
+msgid "The format for the countdown display. Default is yowdHMS"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:115
+msgid "Use the following characters (in order) to indicate which periods you want to display: Y for years, O for months, W for weeks, D for days, H for hours, M for minutes, S for seconds.Use upper-case characters for mandatory periods, or the corresponding lower-case characters for optional periods, i.e. only display if non-zero. Once one optional period is shown, all the ones after that are also shown."
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:123
+msgid "Use compact countdown "
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:124
+msgid "Indicate whether or not the countdown should be displayed in a compact format."
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:130
+msgid "Auctions Base Page"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:131
+msgid "Set the base page for your auctions - this is where your auction archive will be."
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:140
+msgid "Use ajax bid check"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:141
+msgid "Enables / disables ajax current bid checker (refresher) for auction - updates current bid value without refreshing page (increases server load, disable for best performance)"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:147
+msgid "Ajax bid check interval"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:148
+msgid "Time between two ajax requests in seconds (bigger intervals means less load for server)"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:154
+msgid "Ajax bid check only when in focus"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:155
+msgid "Ajax bid check only when page / browser is in focus, if this is off it will trigger ajax request if page is open and user is not looking at it (increases server load)."
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:161
+msgid "Allow highest bidder to outbid himself"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:168
+msgid "Allow on proxy auction change to smaller max bid value"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:175
+msgid "Allow watchlists"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:181
+msgid "Max bid amount"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:182
+msgid "Maximum value for single bid. Default value is "
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:188
+msgid "Allow Buy It Now after bidding has started"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:189
+msgid "For auction listings with the Buy It Now option, you have the chance to purchase an item immediately, before bidding starts. After someone bids, the Buy It Now option disappears and bidding continues until the listing ends, with the item going to the highest bidder. If is not checked Buy It Now disappears when bid exceeds the Buy Now price for normal auction, or is lower than reverse auction."
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:196
+msgid "Set proxy auctions on by default"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:197
+msgid "Check box for proxy auction is on by default. You have to uncheckit for normal auctions"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:204
+msgid "Enable sealed auctions"
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:205
+msgid "Click here to enable sealed auctions."
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:212
+msgid "Remove pay button from reverse auctions."
+msgstr ""
+
+#: classes/class-wc-settings-auctions.php:213
+msgid "Click here to enable removing pay functionality for reverse auctions."
+msgstr ""
+
+#: classes/class-wc-simple-auctions-shortcodes.php:295
+msgid "Active Auctions"
+msgstr ""
+
+#: classes/class-wc-simple-auctions-shortcodes.php:297
+#: classes/woocommerce-simple-auctions-shortcode-my-auctions.php:95
+msgid "Won auctions"
+msgstr ""
+
+#: classes/class-wc-simple-auctions-shortcodes.php:303
+#: classes/class-wc-simple-auctions-shortcodes.php:347
+#: classes/woocommerce-simple-auctions-shortcode-my-auctions.php:140
+msgid "Please log in to see your auctions."
+msgstr ""
+
+#: classes/class-wc-simple-auctions-shortcodes.php:342
+msgid "There are no auctions on your watchlist."
+msgstr ""
+
+#: classes/class-wc-simple-auctions-shortcodes.php:382
+msgid "All user auctions"
+msgstr ""
+
+#: classes/class-wc-simple-auctions-shortcodes.php:418
+#: classes/woocommerce-simple-auctions-shortcode-my-auctions.php:86
+msgid "You are not participating in auction."
+msgstr ""
+
+#: classes/class-wc-simple-auctions-shortcodes.php:451
+#: templates/single-product/tabs/auction-history.php:52
+#: woocommerce-simple-auctions.php:2050
+#: woocommerce-simple-auctions.php:2083
+#: woocommerce-simple-auctions.php:4077
+msgid "Date"
+msgstr ""
+
+#: classes/class-wc-simple-auctions-shortcodes.php:452
+#: woocommerce-simple-auctions.php:731
+#: woocommerce-simple-auctions.php:983
+#: woocommerce-simple-auctions.php:1537
+#: woocommerce-simple-auctions.php:1946
+msgid "Auction"
+msgstr ""
+
+#: classes/class-wc-simple-auctions-shortcodes.php:453
+#: elementor/widgets/auctions.php:70
+#: templates/single-product/auction-bid-form.php:58
+#: templates/single-product/tabs/auction-history.php:53
+#: woocommerce-simple-auctions.php:2051
+#: woocommerce-simple-auctions.php:2084
+#: woocommerce-simple-auctions.php:4076
+msgid "Bid"
+msgstr ""
+
+#: classes/class-wc-simple-auctions-shortcodes.php:454
+msgid "Status"
+msgstr ""
+
+#: classes/class-wc-simple-auctions-shortcodes.php:491
+msgid "Please log in to see your auctions activity."
+msgstr ""
+
+#: classes/custom-auctions-endpoint.php:64
+#: classes/custom-auctions-endpoint.php:86
+msgid "Auctions settings"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-bid.php:36
+msgid "Bid note"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-bid.php:37
+msgid "Send bid email notification to admin when user(s) place a bid."
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-bid.php:41
+msgid "Bid item on {site_title}"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-bid.php:42
+msgid "User placed a bid"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-buy-now.php:39
+msgid "Auction Buy Now"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-buy-now.php:40
+msgid "Auction buy now emails are sent to winning bidder when someone buys the item for the buy now price."
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-buy-now.php:46
+msgid "Item sold on {site_title}"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-buy-now.php:47
+msgid "Item sold for buy now price"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-closing-soon.php:38
+msgid "Auction closing soon email reminder"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-closing-soon.php:39
+msgid "Reminder for the customer that auction is closing soon."
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-closing-soon.php:44
+msgid "Auction closing on {site_title}"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-closing-soon.php:45
+msgid "Reminder that auction is closing."
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-failed.php:36
+msgid "Auction Fail"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-failed.php:37
+msgid "Auction Fail emails are sent when auction fails."
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-failed.php:43
+msgid "Auction Failed on {site_title}"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-failed.php:44
+msgid "No interest in this auction!"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-finished.php:39
+msgid "Auction Finish"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-finished.php:40
+msgid "Auction finish emails are sent to admin when auction finish."
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-finished.php:46
+msgid "Auction Finished on {site_title}"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-finished.php:47
+msgid "Auction Finished!"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-relist-user.php:40
+msgid "Auction relist user notice"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-relist-user.php:41
+msgid "Auction relist user emails are sent to wining user when auction is relisted."
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-relist-user.php:47
+#: classes/emails/class-wc-email-auction-relist.php:43
+msgid "Auction Relisted on {site_title}"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-relist-user.php:48
+msgid "Auction Relist Notification"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-relist.php:36
+msgid "Auction relist admin notice"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-relist.php:37
+msgid "Auction relist admin emails are sent to admin when auction is relisted."
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-relist.php:44
+msgid "Auction relisted!"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-relist.php:80
+msgid "Failed auction relisted after %s hours"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-relist.php:84
+msgid " user %s has not paid for auction in %s hours."
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-reminde-to-pay.php:39
+msgid "Reminder to Pay"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-reminde-to-pay.php:40
+msgid "Reminder for the customer that won the auction to pay."
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-reminde-to-pay.php:46
+msgid "Payment reminder won on {site_title}"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-reminde-to-pay.php:47
+msgid "Reminder for you to pay the auction that you won."
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-wining.php:38
+msgid "Auction Win"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-wining.php:39
+msgid "Auction won emails are sent when a user wins the auction."
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-wining.php:45
+msgid "Auction won on {site_title}"
+msgstr ""
+
+#: classes/emails/class-wc-email-auction-wining.php:46
+msgid "You have won the auction!"
+msgstr ""
+
+#: classes/emails/class-wc-email-customer-bid-note.php:36
+msgid "Customer bid notification"
+msgstr ""
+
+#: classes/emails/class-wc-email-customer-bid-note.php:37
+msgid "Customer bid emails are sent to customer when customer places bid (confirmation email)"
+msgstr ""
+
+#: classes/emails/class-wc-email-customer-bid-note.php:43
+#: classes/emails/class-wc-email-customer-bid-note.php:44
+msgid "You have placed bid on {site_title}"
+msgstr ""
+
+#: classes/emails/class-wc-email-customer-bid-note.php:150
+msgid "Enable/Disable  sending \"bid notification\" email for proxy (auto) bidding"
+msgstr ""
+
+#: classes/emails/class-wc-email-customer-reserve-failed.php:36
+msgid "Reserve Fail"
+msgstr ""
+
+#: classes/emails/class-wc-email-customer-reserve-failed.php:37
+msgid "Reserve Fail emails are sent to user when the auction is finished but didn't make the reserve price"
+msgstr ""
+
+#: classes/emails/class-wc-email-customer-reserve-failed.php:43
+msgid "Auction didn't succeed {site_title}"
+msgstr ""
+
+#: classes/emails/class-wc-email-customer-reserve-failed.php:44
+msgid "Auction didn't make it to the reserve price!"
+msgstr ""
+
+#: classes/emails/class-wc-email-outbid-note.php:39
+msgid "Outbid note"
+msgstr ""
+
+#: classes/emails/class-wc-email-outbid-note.php:40
+msgid "Outbid emails are sent when your users bid has been outbid."
+msgstr ""
+
+#: classes/emails/class-wc-email-outbid-note.php:47
+msgid "Outbid item on {site_title}"
+msgstr ""
+
+#: classes/emails/class-wc-email-outbid-note.php:48
+msgid "You have been outbid"
+msgstr ""
+
+#: classes/wc-simple-auction-activity-list.php:273
+msgid "Date range"
+msgstr ""
+
+#: classes/wc-simple-auction-activity-list.php:274
+#: woocommerce-simple-auctions.php:1111
+#: woocommerce-simple-auctions.php:1117
+msgctxt "placeholder"
+msgid "From&hellip; YYYY-MM-DD HH:MM"
+msgstr ""
+
+#: classes/wc-simple-auction-activity-list.php:275
+#: woocommerce-simple-auctions.php:1112
+#: woocommerce-simple-auctions.php:1118
+msgctxt "placeholder"
+msgid "To&hellip; YYYY-MM-DD HH:MM"
+msgstr ""
+
+#: classes/widgets/class-wc-widget-auction-search.php:19
+msgid "A Search box for auctions only."
+msgstr ""
+
+#: classes/widgets/class-wc-widget-auction-search.php:21
+msgid "WooCommerce Auction Search"
+msgstr ""
+
+#: classes/widgets/class-wc-widget-auction-search.php:26
+msgid "Title"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-ending-soon-auction.php:30
+msgid "Display a list of your ending soon auctions on your site."
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-ending-soon-auction.php:32
+msgid "WooCommerce Ending Soon Auctions"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-ending-soon-auction.php:69
+msgid "Ending soon Auctions"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-ending-soon-auction.php:109
+#: classes/widgets/class-woocommerce-simple-auctions-widget-featured-auctions.php:109
+#: classes/widgets/class-woocommerce-simple-auctions-widget-future-auctions.php:119
+#: classes/widgets/class-woocommerce-simple-auctions-widget-my-auctions.php:114
+#: classes/widgets/class-woocommerce-simple-auctions-widget-random-auctions.php:78
+#: classes/widgets/class-woocommerce-simple-auctions-widget-recent-auction.php:102
+#: classes/widgets/class-woocommerce-simple-auctions-widget-recently-auctions.php:109
+#: classes/widgets/class-woocommerce-simple-auctions-widget-watchlist.php:109
+msgid "Time left"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-ending-soon-auction.php:113
+#: classes/widgets/class-woocommerce-simple-auctions-widget-featured-auctions.php:113
+#: classes/widgets/class-woocommerce-simple-auctions-widget-future-auctions.php:123
+#: classes/widgets/class-woocommerce-simple-auctions-widget-my-auctions.php:118
+#: classes/widgets/class-woocommerce-simple-auctions-widget-random-auctions.php:82
+#: classes/widgets/class-woocommerce-simple-auctions-widget-recent-auction.php:106
+#: classes/widgets/class-woocommerce-simple-auctions-widget-recently-auctions.php:113
+#: classes/widgets/class-woocommerce-simple-auctions-widget-watchlist.php:113
+msgid "Starting in"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-ending-soon-auction.php:191
+#: classes/widgets/class-woocommerce-simple-auctions-widget-featured-auctions.php:198
+#: classes/widgets/class-woocommerce-simple-auctions-widget-future-auctions.php:198
+#: classes/widgets/class-woocommerce-simple-auctions-widget-my-auctions.php:202
+#: classes/widgets/class-woocommerce-simple-auctions-widget-random-auctions.php:147
+#: classes/widgets/class-woocommerce-simple-auctions-widget-recently-auctions.php:192
+#: classes/widgets/class-woocommerce-simple-auctions-widget-watchlist.php:197
+msgid "Title:"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-ending-soon-auction.php:194
+#: classes/widgets/class-woocommerce-simple-auctions-widget-featured-auctions.php:201
+#: classes/widgets/class-woocommerce-simple-auctions-widget-future-auctions.php:201
+#: classes/widgets/class-woocommerce-simple-auctions-widget-my-auctions.php:205
+#: classes/widgets/class-woocommerce-simple-auctions-widget-random-auctions.php:151
+#: classes/widgets/class-woocommerce-simple-auctions-widget-recently-auctions.php:195
+#: classes/widgets/class-woocommerce-simple-auctions-widget-watchlist.php:200
+msgid "Number of auctions to show:"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-ending-soon-auction.php:198
+#: classes/widgets/class-woocommerce-simple-auctions-widget-featured-auctions.php:205
+#: classes/widgets/class-woocommerce-simple-auctions-widget-future-auctions.php:205
+#: classes/widgets/class-woocommerce-simple-auctions-widget-my-auctions.php:209
+#: classes/widgets/class-woocommerce-simple-auctions-widget-random-auctions.php:155
+#: classes/widgets/class-woocommerce-simple-auctions-widget-recent-auction.php:190
+#: classes/widgets/class-woocommerce-simple-auctions-widget-recently-auctions.php:199
+#: classes/widgets/class-woocommerce-simple-auctions-widget-watchlist.php:204
+msgid "Hide time left"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-ending-soon-auction.php:201
+msgid "Show future auctions"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-featured-auctions.php:32
+msgid "Display a list of featured auctions on your site."
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-featured-auctions.php:34
+msgid "WooCommerce Featured Auction"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-featured-auctions.php:73
+msgid "Featured Auctions"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-future-auctions.php:30
+msgid "Display a list of your future auctions on your site."
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-future-auctions.php:32
+msgid "WooCommerce Future Auctions"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-future-auctions.php:78
+msgid "Future Auctions"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-my-auctions.php:33
+msgid "Display a list of auctions user participate."
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-my-auctions.php:35
+msgid "WooCommerce My Auction"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-my-auctions.php:75
+msgid "My Auctions"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-random-auctions.php:24
+msgid "WooCommerce Random Auctions"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-random-auctions.php:27
+msgid "Display a list of random auctions on your site."
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-random-auctions.php:47
+msgid "Random auctions"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-recently-auctions.php:31
+msgid "Display a list of recently viewed auctions."
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-recently-auctions.php:33
+msgid "WooCommerce Recently Viewed Auctions"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-recently-auctions.php:79
+msgid "Recently viewed auctions"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-watchlist.php:33
+msgid "Display a list of auctions on users watchlist."
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-watchlist.php:35
+msgid "WooCommerce My Watchlist"
+msgstr ""
+
+#: classes/widgets/class-woocommerce-simple-auctions-widget-watchlist.php:75
+msgid "Auctions Watchlist"
+msgstr ""
+
+#: classes/woocommerce-simple-auctions-shortcode-my-auctions.php:46
+msgid "Active auctions"
+msgstr ""
+
+#: classes/woocommerce-simple-auctions-shortcode-my-auctions.php:133
+msgid "You have not won any auctions yet."
+msgstr ""
+
+#: elementor/widgets/auctions.php:58
+msgid "Latest Auctions"
+msgstr ""
+
+#: elementor/widgets/auctions.php:59
+msgid "Featured"
+msgstr ""
+
+#: elementor/widgets/auctions.php:60
+msgid "Finished"
+msgstr ""
+
+#: elementor/widgets/auctions.php:61
+msgid "Future"
+msgstr ""
+
+#: elementor/widgets/auctions.php:71
+msgid "Auction Started"
+msgstr ""
+
+#: elementor/widgets/auctions.php:72
+msgid "Ending soonest"
+msgstr ""
+
+#: elementor/widgets/auctions.php:73
+msgid "Most active"
+msgstr ""
+
+#: elementor/widgets/auction_countdown.php:20
+msgid "Auction Countdown"
+msgstr ""
+
+#: elementor/widgets/auction_dates.php:20
+#: woocommerce-simple-auctions.php:1110
+msgid "Auction Dates"
+msgstr ""
+
+#: elementor/widgets/auction_history.php:20
+#: templates/single-product/tabs/auction-history.php:11
+#: woocommerce-simple-auctions.php:1963
+msgid "Auction History"
+msgstr ""
+
+#: elementor/widgets/auction_max_bid.php:20
+msgid "Auction Max Bid"
+msgstr ""
+
+#: elementor/widgets/auction_reserve.php:20
+msgid "Auction Reserve"
+msgstr ""
+
+#: elementor/widgets/auction_reserve.php:156
+#: templates/global/auction-reserve.php:21
+#: woocommerce-simple-auctions.php:3099
+#: woocommerce-simple-auctions.php:3242
+#: woocommerce-simple-auctions.php:3257
+msgid "Reserve price has not been met"
+msgstr ""
+
+#: elementor/widgets/auction_sealed.php:20
+msgid "Auction Sealed"
+msgstr ""
+
+#. translators: 1: Plugin name 2: Elementor 3: Required Elementor version
+#: elementor/wsa.php:151
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: elementor/wsa.php:152
+msgid "Elementor WooCommerce Simple Auctions Extension"
+msgstr ""
+
+#: elementor/wsa.php:153
+msgid "Elementor"
+msgstr ""
+
+#: templates/auction-searchform.php:3
+msgctxt "placeholder"
+msgid "Search Auctions&hellip;"
+msgstr ""
+
+#: templates/emails/auction_buy_now.php:15
+msgid "Hi there. Item that you are bidding for (%s) was sold for buy now price. Better luck next time! "
+msgstr ""
+
+#: templates/emails/auction_closing_soon.php:18
+msgid "Auction <a href='%s'>%s</a> is going to be closed at %s. Current bid is %s"
+msgstr ""
+
+#: templates/emails/auction_closing_soon.php:28
+msgid "To unsubscribe from ending soon emails <a href='%s'>click here</a>"
+msgstr ""
+
+#: templates/emails/auction_fail.php:13
+msgid "Sorry. The auction for <a href='%s'>%s</a> has failed. %s "
+msgstr ""
+
+#: templates/emails/auction_finish.php:14
+msgid "The auction for <a href='%s'>%s</a> finished. Winning bid is %s. "
+msgstr ""
+
+#: templates/emails/auction_relist_admin.php:14
+msgid "The auction for <a href='%s'>%s</a> has been relisted. Reason: %s"
+msgstr ""
+
+#: templates/emails/auction_relist_user.php:14
+msgid "The auction for <a href='%s'>%s</a>.  has been relisted. Reason: auction not paid for %s hours"
+msgstr ""
+
+#: templates/emails/auction_remind_to_pay.php:14
+#: templates/emails/auction_win.php:14
+msgid "Congratulations. You have won the auction for <a href='%s'>%s</a>. Your bid was: %s. Please click on this link to pay for your auction %s "
+msgstr ""
+
+#: templates/emails/auction_remind_to_pay.php:14
+#: templates/emails/auction_win.php:14
+msgid "payment"
+msgstr ""
+
+#: templates/emails/auction_win.php:12
+msgid "Congratulations. You have won the auction for <a href='%s'>%s</a>. Your bid was: %s."
+msgstr ""
+
+#: templates/emails/bid.php:13
+msgid "Hi there. A bid was placed for <a href='%s'>%s</a>. Bid: %s"
+msgstr ""
+
+#: templates/emails/customerbid.php:14
+msgid "Hi there. You have placed bid for item <a href='%s'>%s</a>"
+msgstr ""
+
+#: templates/emails/outbid.php:14
+msgid "Hi there. Your bid for <a href='%s'>%s</a> has been outbid. Current bid is: %s"
+msgstr ""
+
+#: templates/emails/plain/auction_buy_now.php:15
+msgid "Sorry the item that you were bidding on (%s) was sold for the buy now price. Better luck next time!"
+msgstr ""
+
+#: templates/emails/plain/auction_closing_soon.php:16
+msgid "Auction %s is going to is going to be closed at %s. Current bid is %s"
+msgstr ""
+
+#: templates/emails/plain/auction_closing_soon.php:27
+msgid "To unsubscribe from ending soon emails click on link below"
+msgstr ""
+
+#: templates/emails/plain/auction_fail.php:15
+msgid "Sorry the auction for %s has failed. %s "
+msgstr ""
+
+#: templates/emails/plain/auction_finish.php:16
+msgid "The auction for %s finished. Winning bid is %s "
+msgstr ""
+
+#: templates/emails/plain/auction_relist_admin.php:15
+msgid "Auction for %s has been relisted. Reason: %s"
+msgstr ""
+
+#: templates/emails/plain/auction_relist_user.php:15
+msgid "Auction for %s has been relisted. Reason: auction not paid in %s hours"
+msgstr ""
+
+#: templates/emails/plain/auction_remind_to_pay.php:15
+#: templates/emails/plain/auction_win.php:15
+msgid "Congratulations! You have the won auction for %s. Your bid was: %s. Please click on this link to pay for your auction"
+msgstr ""
+
+#: templates/emails/plain/bid.php:15
+msgid "Hi there. A bid was placed for %s . Bid: %s"
+msgstr ""
+
+#: templates/emails/plain/customerbid.php:15
+msgid "Hi there. You have placed bid for item  %s "
+msgstr ""
+
+#: templates/emails/plain/outbid.php:15
+msgid "Your bid for %s has been outbid. The current bid is: %s"
+msgstr ""
+
+#: templates/emails/plain/reserve_fail.php:15
+msgid "Sorry the auction for %s has failed because it did not make the reserve price."
+msgstr ""
+
+#: templates/emails/reserve_fail.php:15
+msgid "Sorry. The auction for <a href='%s'>%s</a> has failed because it did not make the reserve price."
+msgstr ""
+
+#: templates/global/auction-condition.php:15
+msgid "Item condition:"
+msgstr ""
+
+#: templates/global/auction-countdown.php:15
+msgid "Time left:"
+msgstr ""
+
+#: templates/global/auction-countdown.php:21
+msgid "Auction starts in:"
+msgstr ""
+
+#: templates/global/auction-dates.php:19
+#: templates/global/auction-dates.php:26
+msgid "Auction ends:"
+msgstr ""
+
+#: templates/global/auction-dates.php:20
+msgid "Timezone: %s"
+msgstr ""
+
+#: templates/global/auction-dates.php:20
+msgid "UTC "
+msgstr ""
+
+#: templates/global/auction-dates.php:25
+msgid "Auction starts:"
+msgstr ""
+
+#: templates/global/auction-max-bid.php:18
+#: templates/single-product/auction-bid-form.php:19
+msgid "Your min bid is"
+msgstr ""
+
+#: templates/global/auction-max-bid.php:18
+#: templates/single-product/auction-bid-form.php:19
+msgid "Your max bid is"
+msgstr ""
+
+#: templates/global/auction-reserve.php:25
+#: woocommerce-simple-auctions.php:3244
+#: woocommerce-simple-auctions.php:3259
+msgid "Reserve price has been met"
+msgstr ""
+
+#: templates/global/auction-sealed.php:19
+msgid "This auction is <a href='#'>sealed</a>."
+msgstr ""
+
+#: templates/global/auction-sealed.php:20
+#: woocommerce-simple-auctions.php:1044
+msgid "In this type of auction all bidders simultaneously submit sealed bids so that no bidder knows the bid of any other participant. The highest bidder pays the price they submitted. If two bids with same value are placed for auction the one which was placed first wins the auction."
+msgstr ""
+
+#: templates/global/auction-sealed.php:26
+msgid "Maximum bid for this auction is %s."
+msgstr ""
+
+#: templates/global/auction-sealed.php:28
+msgid "Minimum bid for this auction is %s."
+msgstr ""
+
+#: templates/loop/pay-button.php:18
+#: templates/single-product/pay.php:24
+#: woocommerce-simple-auctions.php:3107
+msgid "Pay Now"
+msgstr ""
+
+#: templates/loop/winning-bage.php:20
+msgid "Winning!"
+msgstr ""
+
+#: templates/myaccount/auctions-settings.php:17
+msgid "Get email notification for my auctions ending soon"
+msgstr ""
+
+#: templates/single-product/add-to-cart/auction.php:28
+msgid "Buy now for %s"
+msgstr ""
+
+#: templates/single-product/pay.php:20
+msgid "Congratulations you have won this auction!"
+msgstr ""
+
+#: templates/single-product/tabs/auction-history.php:20
+#: woocommerce-simple-auctions.php:1972
+msgid "Auction has finished"
+msgstr ""
+
+#: templates/single-product/tabs/auction-history.php:24
+#: woocommerce-simple-auctions.php:1976
+msgid "Auction failed because there were no bids"
+msgstr ""
+
+#: templates/single-product/tabs/auction-history.php:28
+#: woocommerce-simple-auctions.php:1980
+msgid "Auction failed because item did not make it to reserve price"
+msgstr ""
+
+#: templates/single-product/tabs/auction-history.php:33
+#: woocommerce-simple-auctions.php:1988
+msgid "Product sold for buy now price"
+msgstr ""
+
+#: templates/single-product/tabs/auction-history.php:37
+#: woocommerce-simple-auctions.php:1994
+msgid "Highest bidder was"
+msgstr ""
+
+#: templates/single-product/tabs/auction-history.php:54
+#: woocommerce-simple-auctions.php:2052
+#: woocommerce-simple-auctions.php:2085
+msgid "User"
+msgstr ""
+
+#: templates/single-product/tabs/auction-history.php:62
+msgid "This auction is sealed. Upon auction finish auction history and winner will be available to the public."
+msgstr ""
+
+#: templates/single-product/tabs/auction-history.php:90
+#: woocommerce-simple-auctions.php:2127
+msgid "Auction started"
+msgstr ""
+
+#: templates/single-product/tabs/auction-history.php:97
+#: woocommerce-simple-auctions.php:2133
+msgid "Auction starting"
+msgstr ""
+
+#: templates/single-product/watchlist-link.php:19
+msgid "Remove from watchlist!"
+msgstr ""
+
+#: templates/single-product/watchlist-link.php:21
+msgid "Add to watchlist!"
+msgstr ""
+
+#: woocommerce-simple-auctions-functions.php:26
+#: woocommerce-simple-auctions-functions.php:44
+msgid "Successfully placed a bid for &quot;%s&quot;!"
+msgstr ""
+
+#: woocommerce-simple-auctions-functions.php:34
+msgid "Successfully placed a bid for &quot;%s&quot; but it does not meet the reserve price!"
+msgstr ""
+
+#: woocommerce-simple-auctions-functions.php:40
+msgid "Successfully placed a bid for &quot;%s&quot;! Your max bid is %s."
+msgstr ""
+
+#: woocommerce-simple-auctions-functions.php:50
+msgid "Your bid was successful but you've been outbid for &quot;%s&quot;!"
+msgstr ""
+
+#: woocommerce-simple-auctions-functions.php:140
+msgid "Sort by buynow price: low to high"
+msgstr ""
+
+#: woocommerce-simple-auctions-functions.php:141
+msgid "Sort by buynow price: high to low"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:100
+msgid "Normal"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:101
+msgid "Reverse"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:632
+msgid "Docs"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:633
+msgid "Support"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:634
+msgid "More WooCommerce Extensions"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:655
+msgid "Woocommerce Simple Auction recommends that you set up a cron job to check finished: <b>%1$s/?auction-cron=check</b>. Set it to every minute| <a href=\"%2$s\">Hide Notice</a>"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:660
+msgid "Woocommerce Simple Auction recommends that you set up a cron job to send emails: <b>%1$s/?auction-cron=mails</b>. Set it every 2 hours | <a href=\"%2$s\">Hide Notice</a>"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:665
+msgid "For automated relisting feature please setup cronjob every 1 hour: <b>%1$s/?auction-cron=relist</b>. | <a href=\"%2$s\">Hide Notice</a>"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:671
+msgid "For ending soon emails please set up cronjob every 30 minutes: <b>%1$s/?auction-cron=closing-soon-emails</b>. | <a href=\"%2$s\">Hide Notice</a>"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:690
+msgid "WooCommerce Simple Auctions - multi currency feature not supported.  <a href=\"%1$s\">Hide Notice</a>"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:752
+msgid "No data available in table"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:753
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:754
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:755
+msgid "(filtered from _MAX_ total entries)"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:756
+msgid "Show _MENU_ entries"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:757
+msgid "Loading..."
+msgstr ""
+
+#: woocommerce-simple-auctions.php:758
+msgid "Processing..."
+msgstr ""
+
+#: woocommerce-simple-auctions.php:759
+msgid "Search:"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:760
+msgid "No matching records found"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:762
+msgid "First"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:763
+msgid "Last"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:764
+msgid "Next"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:765
+msgid "Previous"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:768
+msgid ": activate to sort column ascending"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:769
+msgid ": activate to sort column descending"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:864
+msgid "Years"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:865
+msgid "Months"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:866
+msgid "Weeks"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:867
+msgid "Days"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:868
+msgid "Hours"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:869
+msgid "Minutes"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:870
+msgid "Seconds"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:873
+msgid "Year"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:874
+msgid "Month"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:875
+msgid "Week"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:876
+msgid "Day"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:877
+msgid "Hour"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:878
+msgid "Minute"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:879
+msgid "Second"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:882
+msgid "y"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:883
+msgid "m"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:884
+msgid "w"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:885
+msgid "d"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:897
+msgid "Auction has finished!"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:898
+msgid "Patience please, we are checking if auction is finished!"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:900
+msgid "Auction has started! Please refresh your page."
+msgstr ""
+
+#: woocommerce-simple-auctions.php:905
+#: woocommerce-simple-auctions.php:906
+msgid "You've been outbid!"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:953
+msgid "Auction history"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1007
+msgid "Item condition"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1017
+msgid "Auction type"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1032
+msgid "Proxy bidding?"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1033
+msgid "Enable proxy bidding"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1043
+msgid "Sealed Bid?"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1054
+msgid "Start Price"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1067
+msgid "Bid increment"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1080
+msgid "Reserve price"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1087
+msgid "A reserve price is the lowest price at which you are willing to sell your item. If you don’t want to sell your item below a certain price, you can set a reserve price. The amount of your reserve price is not disclosed to your bidders, but they will see that your auction has a reserve price and whether or not the reserve has been met. If a bidder does not meet that price, you are not obligated to sell your item. "
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1099
+msgid "Buy it now price"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1102
+msgid "Buy it now disappears when bid exceeds the Buy now price for normal auction, or is lower than reverse auction"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1115
+msgid "Relist"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1116
+msgid "Relist Auction Dates"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1299
+msgid "Failed because off relisting"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1424
+msgid "Item is not for auction"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1461
+msgid "You can not buy this item because you did not win the auction! "
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1579
+#: woocommerce-simple-auctions.php:1582
+#: woocommerce-simple-auctions.php:1630
+msgid "Auction %s"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1655
+msgid "Auction filter By "
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1969
+msgid "Auction has been relisted on:"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1982
+msgid "Remove reserve price"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1995
+msgid "Highest bid was"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:1998
+msgid "Order has been paid, order ID is"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2003
+msgid "unknown"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2005
+msgid "Order has been made, order status is"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2016
+msgid "Number of sent reminder emails"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2017
+msgid "Last reminder mail was sent on"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2018
+msgid "Reminder status"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2022
+msgid "Stopped"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2026
+msgid "Running"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2033
+msgid "This is proxy auction"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2035
+msgid "Maximum bid is"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2035
+msgid "by"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2053
+#: woocommerce-simple-auctions.php:2086
+msgid "Email"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2054
+#: woocommerce-simple-auctions.php:2087
+msgid "First name"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2055
+#: woocommerce-simple-auctions.php:2088
+msgid "Last name"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2056
+#: woocommerce-simple-auctions.php:2089
+msgid "Address"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2058
+#: woocommerce-simple-auctions.php:2091
+msgid "Actions"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2073
+msgid "Auction relisted"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2079
+msgid "Auction Data Prior Relist"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2114
+msgid "Delete"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2160
+#: woocommerce-simple-auctions.php:2181
+msgid "Automatic relist auction"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2174
+msgid "Auction automatic relist"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2182
+msgid "Enable automatic relisting"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2192
+msgid "Relist if fail after n hours"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2204
+msgid "Relist if not paid after n hours"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:2216
+msgid "Relist auction duration in h"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:3103
+msgid "Winning bid is %1$s by %2$s."
+msgstr ""
+
+#: woocommerce-simple-auctions.php:3112
+msgid "There were no bids for this auction."
+msgstr ""
+
+#: woocommerce-simple-auctions.php:3122
+msgid "Auction has started please refresh page."
+msgstr ""
+
+#: woocommerce-simple-auctions.php:3125
+msgid "Please refresh page."
+msgstr ""
+
+#: woocommerce-simple-auctions.php:3175
+msgid "Sorry, you must be logged in to add auction to watchlist. <a href=\"%s\" class=\"button\">Login &rarr;</a>"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:3447
+msgid "Reserve price removed! Please refresh page."
+msgstr ""
+
+#: woocommerce-simple-auctions.php:3456
+msgid "Auction is still active!"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:3459
+msgid "Reserve price not removed"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:4019
+msgid "Auction activity"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:4035
+msgid "Export to CSV"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:4072
+msgid "Auction id"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:4073
+msgid "Auction title"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:4074
+msgid "Bider"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:4075
+msgid "Bider email"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:4078
+msgid "Proxy"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:4726
+msgid "This plugin is not compatible and should not be used in WPMU (WordPress Multi Site) enviroment"
+msgstr ""
+
+#: woocommerce-simple-auctions.php:4728
+msgid "requires <a href=\"http://www.woothemes.com/woocommerce/\" target=\"_blank\">WooCommerce</a> to be activated in order to work. Please install and activate <a href=\""
+msgstr ""

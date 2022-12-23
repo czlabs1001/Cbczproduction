@@ -1,0 +1,1 @@
+initSolPay("solpay-woocommerce", SolPayWooCommerce);

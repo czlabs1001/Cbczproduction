@@ -1,0 +1,727 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SolPay WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-21 21:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.0; wp-5.9.2\n"
+"X-Domain: solpay"
+
+#: app/Lang.php:49
+msgid "A connection request is already pending, check the wallet plugin!"
+msgstr ""
+
+#: app/Settings.php:140
+msgid "Accepted wallets"
+msgstr ""
+
+#: app/Settings.php:308
+msgid "Active/Passive"
+msgstr ""
+
+#: app/Settings.php:222 app/Settings.php:327 app/Settings.php:373
+#: app/Settings.php:402
+msgid "Add new"
+msgstr ""
+
+#: app/Lang.php:36
+msgid "An unexpected error has occurred"
+msgstr ""
+
+#: app/Settings.php:451
+msgid "API's"
+msgstr ""
+
+#: app/Lang.php:39
+msgid ""
+"Awaiting verification of payment via blockchain. Please do not close the "
+"page."
+msgstr ""
+
+#: app/Settings.php:503 app/Settings.php:508
+msgid "Backup"
+msgstr ""
+
+#. Author of the plugin
+msgid "FLWR Pay"
+msgstr ""
+
+#: app/Lang.php:31
+msgid "Cancel"
+msgstr ""
+
+#: views/payment/pending.php:1
+msgid "click to pay"
+msgstr ""
+
+#: app/Settings.php:201 app/Payment/CheckoutApi.php:139
+msgid "Cluster"
+msgstr ""
+
+#: app/Settings.php:464
+msgid "Coin Market Cap API"
+msgstr ""
+
+#: app/Settings.php:123
+msgid "Completed"
+msgstr ""
+
+#: app/Lang.php:32
+msgid "Confirm"
+msgstr ""
+
+#: app/Lang.php:22
+msgid "Confirm donate"
+msgstr ""
+
+#: app/Lang.php:30
+msgid "Confirm payment"
+msgstr ""
+
+#: app/Lang.php:38
+msgid "Confirm this action in your wallet"
+msgstr ""
+
+#: app/Lang.php:10
+msgid "Connect wallet"
+msgstr ""
+
+#: app/Lang.php:17
+msgid "Connected account: "
+msgstr ""
+
+#: app/Lang.php:16
+msgid "Connected cluster: "
+msgstr ""
+
+#: app/Lang.php:15
+msgid "Connected wallet: "
+msgstr ""
+
+#: app/Lang.php:14
+msgid "Connection refused!"
+msgstr ""
+
+#: app/Settings.php:457
+msgid "Converter API"
+msgstr ""
+
+#: app/Pages/TransactionList.php:94
+msgid "Created at"
+msgstr ""
+
+#: app/Settings.php:219
+msgid "Currencies"
+msgstr ""
+
+#: app/Settings.php:279
+msgid "Currency contract address cannot be empty."
+msgstr ""
+
+#: app/Settings.php:281
+msgid "Currency contract address must consist of 44 characters."
+msgstr ""
+
+#: app/Settings.php:283
+msgid "Currency image cannot be empty."
+msgstr ""
+
+#: app/Settings.php:277
+msgid "Currency symbol cannot be empty."
+msgstr ""
+
+#: app/Settings.php:320
+msgid "Custom token values"
+msgstr ""
+
+#: app/Settings.php:326
+msgid "Custom tokens"
+msgstr ""
+
+#: app/Payment/Gateway.php:103
+msgid "Customer has chosen SolPay payment method, payment is pending."
+msgstr ""
+
+#: app/Settings.php:95
+msgid "Data deletion status"
+msgstr ""
+
+#: app/Pages/TransactionList.php:95 app/Pages/TransactionList.php:158
+msgid "Delete"
+msgstr ""
+
+#: app/Payment/Gateway.php:59
+msgid "Description"
+msgstr ""
+
+#: app/Lang.php:43
+msgid "Disconnect"
+msgstr ""
+
+#: app/Pages/TransactionList.php:91 app/Payment/CheckoutApi.php:160
+msgid "Discount"
+msgstr ""
+
+#: app/Settings.php:432
+msgid "Discount rate (in %)"
+msgstr ""
+
+#: app/Settings.php:420
+msgid "Discount rate cannot be empty."
+msgstr ""
+
+#: app/Pages/TransactionList.php:137 views/payment/details.php:15
+msgid "Discount: "
+msgstr ""
+
+#: app/Lang.php:20
+msgid "Donate"
+msgstr ""
+
+#: app/Lang.php:19
+msgid "Donate amount: "
+msgstr ""
+
+#: app/Lang.php:23
+msgid "Donate rejected"
+msgstr ""
+
+#: app/Lang.php:41
+msgid "Donation sent successfully"
+msgstr ""
+
+#: app/Payment/Gateway.php:48
+msgid "Enable"
+msgstr ""
+
+#: app/Payment/Gateway.php:47
+msgid "Enable/Disable"
+msgstr ""
+
+#: app/Settings.php:221
+msgid ""
+"Enter the currencies in the solana network you accept to receive payments."
+msgstr ""
+
+#: app/Lang.php:12
+msgid "Establishing connection please wait!"
+msgstr ""
+
+#: app/Settings.php:132
+msgid ""
+"Even if a user enters the SolPay payment page, if they are not logged in, "
+"SolPay will not work at all."
+msgstr ""
+
+#: app/Pages/TransactionList.php:153 views/payment/details.php:41
+#: views/pages/transaction-list/form.php:16
+msgid "Failed"
+msgstr ""
+
+#: app/Settings.php:354
+msgid "FIAT money symbol cannot be empty."
+msgstr ""
+
+#: app/Settings.php:356
+msgid "FIAT money value cannot be empty."
+msgstr ""
+
+#: app/Settings.php:372
+msgid "FIAT Moneys"
+msgstr ""
+
+#: views/pages/transaction-list/form.php:23
+msgid "Filter"
+msgstr ""
+
+#: views/pages/transaction-list/form.php:11
+msgid "Filter by status"
+msgstr ""
+
+#: app/Settings.php:90
+msgid "General options"
+msgstr ""
+
+#: app/Settings.php:214
+msgid "Get paid in native currency? - Solana (SOL)"
+msgstr ""
+
+#: app/Settings.php:212
+msgid "Get paid with Solana (SOL) Active/Passive"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://czlabs.io"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.czlabs.io"
+msgstr ""
+
+#: app/Payment/Register.php:16
+msgid ""
+"If you did not specify a payment address in the SolPay WooCommerce settings, "
+"the plugin will not work. Please specify a payment address first."
+msgstr ""
+
+#: app/Settings.php:302
+msgid "Image"
+msgstr ""
+
+#: app/Loader.php:22
+msgid ""
+"In order to use the \"SolPay WooCommerce\" Plugin, please enter your license "
+"(purchase) code in the license field in the settings section."
+msgstr ""
+
+#: app/Lang.php:48
+msgid "Infura id is required for WalletConnect"
+msgstr ""
+
+#: app/Lang.php:33
+msgid "Insufficient balance!"
+msgstr ""
+
+#: app/Settings.php:475
+msgid "License"
+msgstr ""
+
+#: app/Settings.php:481
+msgid "License (Purchase code)"
+msgstr ""
+
+#: app/Settings.php:488
+msgid "License cannot be empty."
+msgstr ""
+
+#: app/Settings.php:490
+msgid "License must consist of 36 characters."
+msgstr ""
+
+#: app/Pages/TransactionList.php:139
+msgid "No discount"
+msgstr ""
+
+#: app/Lang.php:45
+msgid "Not accepted currency"
+msgstr ""
+
+#: app/Lang.php:26
+msgid "Not currency selected"
+msgstr ""
+
+#: app/Settings.php:130
+msgid "Only logged in users can pay"
+msgstr ""
+
+#: app/Payment/Gateway.php:65
+msgid "Order button text"
+msgstr ""
+
+#: app/Pages/TransactionList.php:89
+msgid "Order id"
+msgstr ""
+
+#: app/Pages/TransactionList.php:90
+msgid "Order price"
+msgstr ""
+
+#: app/Lang.php:18
+msgid "Order price: "
+msgstr ""
+
+#: app/Payment/Gateway.php:67
+msgid "Pay button on the checkout page"
+msgstr ""
+
+#: app/Lang.php:29
+msgid "Pay with"
+msgstr ""
+
+#: app/Payment/Gateway.php:56
+msgid "Pay with FlWR Pay"
+msgstr ""
+
+#: app/Settings.php:119
+msgid "Payment complete order status"
+msgstr ""
+
+#: app/Lang.php:42 app/Payment/CheckoutApi.php:109
+msgid "Payment completed successfully"
+msgstr ""
+
+#: app/Payment/CheckoutApi.php:149
+msgid "Payment currency"
+msgstr ""
+
+#: app/Lang.php:25
+msgid "Payment currency: "
+msgstr ""
+
+#: app/Payment/Gateway.php:100
+msgid "Payment is awaited."
+msgstr ""
+
+#: app/Lang.php:35 app/Payment/CheckoutApi.php:95
+#: app/Payment/CheckoutApi.php:114
+msgid "Payment not verified via Blockchain"
+msgstr ""
+
+#: app/Services/Verifier.php:112
+msgid "Payment not verified via Blockchain!"
+msgstr ""
+
+#: app/Pages/TransactionList.php:88 app/Payment/CheckoutApi.php:154
+msgid "Payment price"
+msgstr ""
+
+#: app/Lang.php:24
+msgid "Payment price: "
+msgstr ""
+
+#: app/Lang.php:34
+msgid "Payment rejected"
+msgstr ""
+
+#: app/Pages/TransactionList.php:149 views/payment/details.php:37
+#: views/pages/transaction-list/form.php:19
+msgid "Pending"
+msgstr ""
+
+#: app/Payment/CheckoutApi.php:82 app/Payment/CheckoutApi.php:213
+msgid "Please enter a valid data."
+msgstr ""
+
+#: app/Lang.php:21
+msgid "Please enter donation amount"
+msgstr ""
+
+#: app/Payment/Checkout.php:55
+msgid "Please login to make a payment!"
+msgstr ""
+
+#: app/Lang.php:28
+msgid "Please select the currency you want to donate in"
+msgstr ""
+
+#: app/Lang.php:27
+msgid "Please select the currency you want to pay in"
+msgstr ""
+
+#: app/Lang.php:37
+msgid "Please wait..."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Plugin for WooCommerce to receive payments via the Solana network with "
+"cryptocurrency wallet"
+msgstr ""
+
+#: views/payment/details.php:6
+msgid "Price: "
+msgstr ""
+
+#: app/Payment/Gateway.php:68
+msgid "Proceed to SolPay"
+msgstr ""
+
+#: app/Settings.php:124
+msgid "Processing"
+msgstr ""
+
+#: app/Payment/CheckoutApi.php:165
+msgid "Real price"
+msgstr ""
+
+#: app/Pages/TransactionList.php:137 views/payment/details.php:23
+msgid "Real price: "
+msgstr ""
+
+#: app/Pages/TransactionList.php:106
+msgid "Search..."
+msgstr ""
+
+#: app/Pages/TransactionList.php:92 app/Payment/CheckoutApi.php:171
+msgid "Sender address"
+msgstr ""
+
+#: app/Settings.php:40 app/Settings.php:43
+msgid "Settings"
+msgstr ""
+
+#: app/Settings.php:195
+msgid "Solana options"
+msgstr ""
+
+#: views/payment/details.php:2
+msgid "SolPay payment details"
+msgstr ""
+
+#: app/Payment/Gateway.php:19
+msgid "SolPay Solana Payment Gateway"
+msgstr ""
+
+#. Name of the plugin
+#: app/Pages/TransactionList.php:24
+msgid "SolPay WooCommerce"
+msgstr ""
+
+#: app/Settings.php:147
+msgid "Specify the wallets you want to accept payments from."
+msgstr ""
+
+#: app/Pages/TransactionList.php:93
+msgid "Status"
+msgstr ""
+
+#: views/payment/details.php:32
+msgid "Status: "
+msgstr ""
+
+#: app/Pages/TransactionList.php:48
+msgid "Successfully deleted!"
+msgstr ""
+
+#: app/Settings.php:292 app/Settings.php:365 app/Settings.php:376
+#: app/Settings.php:427
+msgid "Symbol"
+msgstr ""
+
+#: app/Settings.php:348 app/Settings.php:418
+msgid "Symbol cannot be empty."
+msgstr ""
+
+#: app/Settings.php:104
+msgid ""
+"The account address to which the payments will be transferred. Solana wallet "
+"address."
+msgstr ""
+
+#: app/Lang.php:52
+msgid "The connection request timed out."
+msgstr ""
+
+#: app/Lang.php:51
+msgid "The currency you selected is not supported on this network!"
+msgstr ""
+
+#: app/Settings.php:494
+msgid ""
+"The license (purchase) code you entered for \"SolPay WooCommerce\" is "
+"invalid."
+msgstr ""
+
+#: views/payment/checkout.php:2
+msgid ""
+"The payment is processed based on the address and payment amount you "
+"submitted when verifying. So please do not change this information on the "
+"transfer screen."
+msgstr ""
+
+#: app/Payment/CheckoutApi.php:217
+msgid "The relevant order was not found!"
+msgstr ""
+
+#: app/Payment/Register.php:35
+msgid ""
+"The SolPay WooCommerce” plugin cannot run without WooCommerce active. Please "
+"install and activate WooCommerce plugin."
+msgstr ""
+
+#: app/Settings.php:121
+msgid "The status to apply for order after payment is complete."
+msgstr ""
+
+#: app/Settings.php:379
+msgid "The symbol of the fiat currency you want to value (ISO Code)"
+msgstr ""
+
+#: app/Lang.php:50
+msgid "The transfer amount cannot be less than zero."
+msgstr ""
+
+#: app/Lang.php:11
+msgid "The wallet you want to connect to could not be detected!"
+msgstr ""
+
+#: app/Lang.php:44 app/Payment/CheckoutApi.php:64
+#: app/Payment/CheckoutApi.php:196
+msgid "There was a problem converting currency!"
+msgstr ""
+
+#: app/Lang.php:47
+msgid "There was a problem establishing the connection!"
+msgstr ""
+
+#: app/Payment/Gateway.php:61
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: app/Payment/Gateway.php:55
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: app/Payment/Checkout.php:43 app/Payment/CheckoutApi.php:58
+msgid "This order is not waiting for payment."
+msgstr ""
+
+#: app/Settings.php:98
+msgid ""
+"This setting is passive come by default. You enable this setting. All data "
+"created by the plug-in will be deleted while removing the plug-in."
+msgstr ""
+
+#: app/Payment/Gateway.php:53
+msgid "Title"
+msgstr ""
+
+#: app/Settings.php:223
+msgid ""
+"To test your tokens on the testnet, you can enter the information in the "
+"currencies field and select the testnet Cluster."
+msgstr ""
+
+#: app/Settings.php:297
+msgid "Token address"
+msgstr ""
+
+#: app/Settings.php:395 app/Settings.php:401
+msgid "Token discounts"
+msgstr ""
+
+#: app/Pages/TransactionList.php:85 app/Payment/CheckoutApi.php:144
+msgid "Transaction id"
+msgstr ""
+
+#: app/Lang.php:40
+msgid "Transaction Id: "
+msgstr ""
+
+#: views/payment/details.php:48
+msgid "Transaction id: "
+msgstr ""
+
+#: app/Pages/TransactionList.php:25 views/pages/transaction-list/index.php:3
+msgid "Transaction list"
+msgstr ""
+
+#: app/Payment/CheckoutApi.php:87
+msgid "Transaction record not found!"
+msgstr ""
+
+#: app/Pages/TransactionList.php:86
+msgid "Used cluster"
+msgstr ""
+
+#: app/Pages/TransactionList.php:87
+msgid "Used wallet"
+msgstr ""
+
+#: app/Settings.php:382
+msgid "Value"
+msgstr ""
+
+#: app/Pages/TransactionList.php:151 views/payment/details.php:39
+#: views/pages/transaction-list/form.php:13
+msgid "Verified"
+msgstr ""
+
+#: app/Lang.php:13
+msgid "Waiting..."
+msgstr ""
+
+#: app/Settings.php:102
+msgid "Wallet address"
+msgstr ""
+
+#: app/Settings.php:111
+msgid "Wallet address cannot be empty."
+msgstr ""
+
+#: app/Settings.php:113
+msgid "Wallet address must consist of 44 characters."
+msgstr ""
+
+#: app/Settings.php:146
+msgid "Wallets"
+msgstr ""
+
+#: app/Payment/Gateway.php:20
+msgid ""
+"With SolPay, your customers can easily pay with their crypto wallet through "
+"the Solana network."
+msgstr ""
+
+#: app/Settings.php:328
+msgid ""
+"You can assign values ​​corresponding to fiat currencies to your own custom "
+"tokens."
+msgstr ""
+
+#: app/Settings.php:403
+msgid ""
+"You can define shopping-specific discounts for tokens with the symbols of "
+"the tokens."
+msgstr ""
+
+#: app/Settings.php:310
+msgid "You can easily activate or deactivate Token without deleting it."
+msgstr ""
+
+#: app/Payment/Gateway.php:62
+msgid ""
+"You can pay with cryptocurrencies on the Solana network using a crypto "
+"wallet."
+msgstr ""
+
+#: app/Settings.php:208
+msgid ""
+"You can select other networks for testing. But for real operations "
+"\"Mainnet\" must be selected!"
+msgstr ""
+
+#: app/Settings.php:185
+msgid "You must activate at least one wallet!"
+msgstr ""
+
+#: app/Settings.php:287
+msgid "You must add at least one blockchain network!"
+msgstr ""
+
+#: app/Settings.php:350
+msgid "You must add at least one FIAT money value!"
+msgstr ""
+
+#: app/Payment/Register.php:20
+msgid ""
+"You selected the Coin Market Cap API as the Currency converter API, but you "
+"did not enter an API key! That's why the plugin has been deactivated!"
+msgstr ""
+
+#: app/Services/Verifier.php:89
+msgid "Your order is complete."
+msgstr ""
+
+#: app/Services/Verifier.php:91
+msgid "Your order is processing."
+msgstr ""
+
+#: views/payment/pending.php:1
+#, php-format
+msgid "Your order is waiting for payment, %s."
+msgstr ""
+
+#: app/Lang.php:46
+#, php-format
+msgid "{discountRate}% discount on purchases with this coin."
+msgstr ""

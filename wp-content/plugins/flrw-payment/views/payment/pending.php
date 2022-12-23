@@ -1,0 +1,2 @@
+<?php echo sprintf(esc_html__('Your order is waiting for payment, %s.', 'solpay'), '<a href="'.esc_url($payUrl).'" title="'.esc_html__('click to pay', 'solpay').'">'.esc_html__('click to pay', 'solpay').'</a>'); ?> 
+<br><br>
